@@ -7,17 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: 'blue',
+        primary: "#FF6363",
         secondary: {
-          100: 'skyblue',
-          200: 'darkblue'
-        }
+          100: "#E2E2D5",
+          200: "#888883",
+        },
       },
       fontFamily: {
-        body: ['Sansita+Swashed']
-      }
+        body: ["Nunito"],
+      },
     },
   },
   variants: {},
   plugins: [],
-}
+};
