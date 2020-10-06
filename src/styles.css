@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .card {
-  @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
+  @apply rounded bg-blue-400 border-gray-500 shadow-md overflow-hidden relative;
 }
 
 .badge {
@@ -14,4 +14,8 @@
 
 .btn {
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
+}
+
+.nav-item {
+  @apply text-secondary-100 block px-8 flex justify-end border-r-4 border-secondary-100;
 }
